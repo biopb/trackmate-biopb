@@ -1,4 +1,4 @@
-# TrackMate-Lacss
+# TrackMate-Biopb
 
 A plugin of a plugin. 
 
@@ -35,10 +35,10 @@ By default, trackmate-lacss will try to connect to the public server remotely. H
 
 **Step 1:**
 ``` sh
-docker run --gpus=all p 50051:50051 jiyuuchc/lacss --local
+docker run --gpus=all p 50051:50051 jiyuuchc/${SERVER} --local
 ```
 
-*See [biopb](https://github.com/biopb/biopb/tree/main/docker) project for more details*
+*See [biopb-server](https://github.com/biopb/biopb-server) project for more details*
 
 **Step 2:** 
 
